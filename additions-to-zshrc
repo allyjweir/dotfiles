@@ -1,0 +1,14 @@
+# NOTE: These are appended to the default .zshrc file
+
+export LANG=en_US.UTF-8
+
+if [[ -n $SSH_CONNECTION ]]; then
+    export EDITOR='vim'
+else
+    export EDITOR='code --wait'
+fi
+
+alias d='docker'
+alias dc='docker-compose'
+alias dr='docker run --rm -it'
+alias k='kubectl'
