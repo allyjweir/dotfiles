@@ -14,4 +14,12 @@ Every time I have moved machine I have started afresh with new dotfiles ready to
 
 After doing a one-off [initial configuration in GitHub settings](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#dotfiles) the dotfiles will be picked up in all newly created Codespaces.
 
+You need the following config in your VS Code settings with "Settings Sync" configured,
+
+```
+"terminal.integrated.defaultProfile.linux": "zsh"
+```
+
+Once you have added this config you need to quit and restart VS Code for it to take effect.
+
 Note to future self, if you make changes then you need to recreate the codespace to have them picked up.
