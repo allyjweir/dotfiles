@@ -20,13 +20,6 @@ echo "Copy my .zshrc file"
 echo "=========="
 cp .zshrc $HOME/.zshrc
 
-# Set my preferred shell
-# NOTE: This should be facilitated via VSCode when connecting to a Codespace but it doesn't seem to reliably pick up
-echo "\n=========="
-echo "Set zsh as preferred shell"
-echo "=========="
-chsh --shell /bin/zsh $(whoami)
-
 # Install and configure asdf
 echo "\n=========="
 echo "Configure asdf"
