@@ -107,8 +107,8 @@ export LANG=en_US.UTF-8
 
 if [[ -n $SSH_CONNECTION ]]; then
     export EDITOR='vim'
-else-
-    export EDITOR='code-insiders --wait'
+else
+    export EDITOR='code --wait'
 fi
 
 alias d='docker'
